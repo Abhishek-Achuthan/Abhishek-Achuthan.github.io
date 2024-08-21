@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Abhishek-portfolio</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website of Athul Krishna M A" />
+
+ <!-- Facebook Meta Tags -->
+ <meta property="og:url" content="https://athulkrishnama.github.io/" />
+ <meta property="og:type" content="website" />
+ <meta property="og:title" content="Abhishek M A" />
+ <meta property="og:description" content="Portfolio of Abhishek M A" />
+ <meta
+   property="og:image"
+   content="https://i.postimg.cc/8k47g4Mw/Screenshot-2024-08-21-183602.png"
+ />
+ <meta
+   property="og:image:secure_url"
+   content="https://i.postimg.cc/8k47g4Mw/Screenshot-2024-08-21-183602.png"
+ />
+ <meta property="og:image:width" content="300">
+ <meta property="og:image:height" content="300">
+
+ <!-- Twitter Meta Tags -->
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta property="twitter:domain" content="https://athulkrishnama.github.io/" />
+ <meta
+   property="twitter:url"
+   content="https://github.com/Abhishek-Achuthan"
+ />
+ <meta name="twitter:title" content="Abhishek M A" />
+ <meta name="twitter:description" content="Official" />
+ <meta
+   name="twitter:image"
+   content="https://i.postimg.cc/8k47g4Mw/Screenshot-2024-08-21-183602.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- script
+	================================================== -->
+    <script src="js/modernizr.js"></script>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navigation-bar" tabindex="0">
+
+
+    <div class=" offcanvas-btn text-end m-3">
+        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"><iconify-icon icon="ci:hamburger-lg"
+                style="font-size: 30px;"></iconify-icon></button>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <header class="hero position-fixed">
+                <div class="container hero-container text-center align-content-between">
+
+                    <div>
+                        <img src="images/pro-img.jpg" class="hero-img mb-4 rounded-circle" alt="Bootstrap Themes"
+                            width="140" height="140" loading="lazy">
+
+
+                        <h2 class="fw-bold">Abhishek M A</h2>
+                        <p>Motivated MERN stack developer with a passion for problem-solving, a dedication to ongoing learning, and a keen interest in crafting innovative full-stack solutions.</p>
+                        <div class="social-icon my-2">
+                            <p>
+                                <a class="social-link mx-3 active" href="https://www.facebook.com/athulkrishna.mashokan?mibextid=ZbWKwL"> <iconify-icon
+                                        icon="icomoon-free:facebook"></iconify-icon> </a>
+                                <a class="social-link mx-3 " href="https://www.instagram.com/abhishek_vvr?igsh=Y25ucW5nanVyZnI2"> <iconify-icon
+                                        icon="icomoon-free:instagram"></iconify-icon> </a>
+                                <a class="social-link mx-3 " href="https://x.com/Abhishekvvr"> <iconify-icon
+                                        icon="icomoon-free:twitter"></iconify-icon> </a>
+                                <a class="social-link mx-3 " href="https://youtube.com/@abhishekachuthan-f7o?si=49RIwHegSbnjY8Jy"> <iconify-icon
+                                        icon="icomoon-free:youtube"></iconify-icon> </a>
+                            </p>
+
+                        </div>
+                </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <section id="navigation-bar" class="navigation position-fixed ">
+
+
+                <ul class="nav nav-pills text-center align-items-center mt-5 ms-xl-5 ms-3 ">
+                    <li>
+                        <a href="#home" class="nav-link active rounded-0" aria-current="page" data-bs-toggle="tooltip"
+                            data-bs-placement="right" aria-label="Home" data-bs-original-title="Home">
+                            <iconify-icon icon="ic:round-home"></iconify-icon>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Dashboard" data-bs-original-title="Dashboard">
+                            <iconify-icon icon="ic:round-person"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#resume" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Orders" data-bs-original-title="Orders">
+                            <iconify-icon icon="ic:round-school"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#experience" class="nav-link rounded-0" data-bs-toggle="tooltip"
+                            data-bs-placement="right" aria-label="Products" data-bs-original-title="Products">
+                            <iconify-icon icon="ic:round-business-center"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Customers" data-bs-original-title="Customers">
+                            <iconify-icon icon="ic:round-menu-book"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Customers" data-bs-original-title="Customers">
+                            <iconify-icon icon="ic:round-phone"></iconify-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <div class="col-xl-6 offset-xl-2">
+                <div class="container content-container">
+
+                    <section id="home" class="mt-0">
+
+                        <div class=" py-lg-4 my-lg-4 text-center">
+                            <h1 class="fw-bold">Hi I’m Abhishek M A</h1>
+                            <div class="col-lg-10 mx-auto">
+                                <p class="lead-paragraph mb-4">Passionate MERN stack developer driven by problem-solving, dedicated to continuous learning, and excited about crafting innovative full-stack solutions.
+
+
+
+
+
+
+                                </p>
+                       
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section id="about" class="mt-0">
+
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">About Me</h1>
+                            <p class="lead-paragraph my-4">As a motivated and passionate junior MERN stack developer, I am actively enhancing my skills in full-stack development. My enthusiasm for technology drives me to continually learn and apply new concepts. I excel at tackling complex problems and am dedicated to using technology to develop innovative solutions. From front-end design to back-end logic, I am engaged in all aspects of development and constantly seek opportunities to broaden my expertise. My goal is to make valuable contributions to projects, offering fresh perspectives and a strong work ethic.</p>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class=" py-4 my-4 ">
+                            <h2 class="fw-bold">Personal Info</h2>
+
+                            <ul class="list-unstyled">
+                                <li><b>Age:</b> 22 </li>
+                                <li><b>Residence:</b> Kerala, India</li>
+                                <li><b>Address:</b>Wadakkancherry, Thrissur</li>
+                                <li><b>E-mail:</b>abhishekachuthan693@gmail.com</li>
+                                <li><b>Phone:</b> +91 8921412046</li>
+                            </ul>
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class=" py-4 my-4 ">
+                            <h2 class="fw-bold pt-4 pb-5">Services</h2>
+                            <div class="row row-cols-1 row-cols-sm-2 ">
+                                <div class="col d-flex align-items-start pb-5">
+                                    <img src="images/browser page account.png" alt="image">
+                                    <div>
+                                        <h4 class="fw-bold mb-0">Web Design</h4>
+                                        <p class="mb-1">Innovative web designer dedicated to creating user-friendly and visually striking designs, combining aesthetics with functionality to deliver smooth and engaging digital experiences.
+                                        </p>
+                                    
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-start pb-5">
+                                    <img src="images/shipment upload.png" alt="image">
+                                    <div>
+                                        <h4 class="fw-bold mb-0">Backend Development</h4>
+                                        <p class="mb-1">Committed backend developer adept at creating robust, efficient, and scalable server-side applications, with a focus on seamless data management and secure functionality.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-start pb-5">
+                                    <img src="images/video game logo companion cube.png" alt="image">
+                                    <div>
+                                        <h4 class="fw-bold mb-0">React JS</h4>
+                                        <p class="mb-1">Skilled in React.js, I design dynamic and responsive user interfaces, utilizing component-based architecture to develop scalable and high-performance web applications.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                      
+
+
+                    </section>
+
+                    <section id="resume">
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">Resume</h1>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+
+                        <div class="py-4 my-4 ">
+                            <h2 class="fw-bold pb-4">My Skills</h2>
+
+
+                            <div id="progressbar-tooltip-id" class="progressbar-tooltip">
+
+                                <h4>Node JS</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="90" data-title=""></div>
+                                <h4>React JS</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="95" data-title=""></div>
+                                <h4>Mongo DB</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="80" data-title=""></div>
+                                <h4>Express JS</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="85" data-title=""></div>
+                            </div>
+
+
+
+
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 " id="experience">
+                            <h2 class="fw-bold pb-4">Experience</h2>
+
+
+                            <div class="row justify-content-start" data-aos="fade-up">
+                                <div class="col-7">
+                                    <div class="data-info ">
+                                        <p class="meta-date">2024, August - Present <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description"> Brototype</a> </p>
+                                        <h3 class="info-title">MERN Stack Intern</h3>
+                                        <p>I am learning the MERN stack at Brototype, gaining hands-on experience with MongoDB, Express.js, React.js, and Node.js. This comprehensive training equips me with the skills to build full-stack applications, enabling me to develop both front-end interfaces and back-end logic effectively.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                          
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 ">
+                            <h2 class="fw-bold pb-4">Education</h2>
+
+                            <div class="row justify-content-start" data-aos="fade-up">
+                                <div class="col-7">
+                                    <div class="data-info ">
+                                        <p class="meta-date">2018 - 2019 <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description">GHSS VARVOOR</a>
+                                        </p>
+                                        <h3 class="info-title">Higher Secondary Bio-science</h3>
+                                        <p>I have recently completed my Plus Two studies with a focus on Biological Sciences. While my background is rooted in biology, I have transitioned into the IT field and am currently pursuing a career as a full-stack developer. This shift has allowed me to apply my analytical skills in a new context and develop expertise in software development.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                
+
+                    <section id="blog">
+
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">Projects</h1>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class="container py-4 my-4">
+
+                            <div class="row ">
+                                <article class="blog-article col-md-6">
+                                    <div class="image-holder">
+                                        <a href="https://abhishek-achuthan.github.io/Netflix/
+                                        " class="image-hvr-effect">
+                                            <img src="media/Screenshot 2024-08-20 212016.png" alt="post" class="post-image">
+                                        </a>
+                                    </div>
+                                    <div class="post-item">
+                                        <p class="meta-date">Aug 7, 2024 <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description">Clone Website</a>
+                                        </p>
+                                        <a href="blog-single.html" class="blog-description">
+                                            <h3 class="info-title text-capitalize">Clone website created as part of learning html and css</h3>
+                                        </a>
+
+                                    </div>
+                                </article>
+                                <article class="blog-article col-md-6">
+                                    <div class="image-holder">
+                                        <a href="https://abhishek-achuthan.github.io/CMF-Nothing/
+                                        " class="image-hvr-effect">
+                                            <img src="media/Screenshot 2024-08-20 212433.png" alt="post" class="post-image">
+                                        </a>
+                                    </div>
+                                    <div class="post-item">
+                                        <p class="meta-date">Aug 10, 2024 <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description">Clone Website</a>
+                                        </p>
+                                        <a href="blog-single.html" class="blog-description">
+                                            <h3 class="info-title text-capitalize">Second website clone project aimed at mastering web design techniques and enhancing my understanding of design principles. This project focuses on applying skills in layout, user experience, and responsive design.</h3>
+                                        </a>
+
+                                    </div>
+                                </article>
+                                <article class="blog-article col-md-6">
+                                    <div class="image-holder">
+                                        <a href=" "class="image-hvr-effect">
+                                            <img src="images/nothing-clone.png" alt="post" class="post-image">
+                                        </a>
+                                    </div>
+                                    <div class="post-item">
+                                        <p class="meta-date">Aug 20, 2024 <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description">Responsive Clone Website</a>
+                                        </p>
+                                        <a href="blog-single.html" class="blog-description">
+                                            <h3 class="info-title text-capitalize">Responsive clone website created after learning bootstrap</h3>
+                                        </a>
+
+                                    </div>
+                                </article>
+                             
+
+
+
+                            </div>
+
+
+
+
+                        </div>
+                    </section>
+
+                    <section id="contact">
+
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">Contact</h1>
+                            <p>Wanna talk about project, please feel free to contact me.</p>
+                        </div>
+
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 ">
+
+                            <div class="row justify-content-around">
+                                <div class="col-md-4 contact-list">
+                                    <p class="contact-paragraph"><iconify-icon icon="ic:outline-phone"></iconify-icon>
+                                        <a href="tel:+918547072123">+91 8921412046</a></p>
+                                </div>
+                                <div class="col-md-4 contact-list">
+                                    <p class="contact-paragraph"><iconify-icon icon="ic:outline-email"></iconify-icon>
+                                        <a href="abhishekachuthan693@gmail.com">abhishekachuthan693@gmail.com</a></p>
+                                </div>
+                                <div class="col-md-4 contact-list">
+                                    <p class="contact-paragraph"> <iconify-icon
+                                            icon="ic:outline-location-on"></iconify-icon> Kerala, India</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 ">
+
+                            <h2 class="fw-bold pb-4">Get In Touch</h2>
+
+                            <form name="contactform" action="contact.php" method="post"
+                                class="form-group contact-form mt-4" novalidate id="submit-form">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" minlength="2" name="name" id="name" placeholder="Name*"
+                                            class="form-control" required >
+                                            <div class="invalid-feedback">name should not be empty</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" name="email" id="email" placeholder="E-mail*" class="form-control"
+                                            required>
+                                            <div class="invalid-feedback">email should be valid</div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+
+                                        <textarea class="form-control mt-4 mb-4" name="message" id="message" placeholder="Message"
+                                            style="height: 150px;" required></textarea>
+
+                                            <div class="invalid-feedback">messsage should not be empty</div>
+                                        <button  name="submit" id="submit-btn" class="btn btn-primary btn-lg ">SEND
+                                            IT</button>
+
+
+
+
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 ">
+
+                            <h2 class="fw-bold pb-4">Google Map</h2>
+                            <div class="mapouter">
+                                <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                                        src="https://maps.google.com/maps?q=Varavoor valav&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="map"></iframe><a
+                                        href="https://getasearch.com/fmovies"></a><br>
+                                    <style>
+                                        .mapouter {
+                                            position: relative;
+                                            text-align: right;
+                                            height: 500px;
+                                            width: 100%;
+                                        }
+                                    </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                                    <style>
+                                        .gmap_canvas {
+                                            overflow: hidden;
+                                            background: none !important;
+                                            height: 500px;
+                                            width: 100%;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="hero-sidebar col-xl-3 offset-xl-1">
+                <header class="hero position-fixed">
+                    <div class="container hero-container text-center my-4 pt-3 align-content-between">
+
+                        <div>
+                            <img src="images/pro-img.jpg" class="hero-img mb-4 rounded-circle" alt="Bootstrap Themes"
+                                width="140" height="140" loading="lazy">
+
+
+                            <h2 class="fw-bold mt-3">Abhishek M A</h2>
+                            <p>Enthusiastic MERN stack developer eager to solve problems, continuously learning, and passionate about creating innovative solutions in full-stack development..</p>
+                            <div class="social-icon my-3">
+                                <p>
+                                    <a class="social-link mx-3 active" href="https://www.facebook.com/athulkrishna.mashokan?mibextid=ZbWKwL"> <iconify-icon
+                                            icon="icomoon-free:facebook"></iconify-icon> </a>
+                                    <a class="social-link mx-3 " href="https://www.instagram.com/abhishek_vvr?igsh=Y25ucW5nanVyZnI2"> <iconify-icon
+                                            icon="icomoon-free:instagram"></iconify-icon> </a>
+                                    <a class="social-link mx-3 " href="https://x.com/Abhishekvvr"> <iconify-icon
+                                            icon="icomoon-free:twitter"></iconify-icon> </a>
+                                    <a class="social-link mx-3 " href="
+                                    www.youtube.com/@AbhishekAchuthan-f7o
+                                    
+                                    
+                                    "> <iconify-icon
+                                            icon="icomoon-free:youtube"></iconify-icon> </a>
+                                </p>
+
+                            </div>
+                    </div>
+                </header>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+   <script type="text/javascript">
+    emailjs.init('WaVEucBZw6DN8tnJ0')
+
+    let form=document.getElementById("submit-form")
+    form.addEventListener("submit",(event)=>{
+        if(!form.checkValidity()){
+            event.preventDefault()
+        }else{
+
+            let params = {from_name: document.getElementById("name").value,
+            from_email: document.getElementById("email").value,
+            message: document.getElementById("message").value
+        }
+        console.log(params)
+        emailjs.send('service_qwsffyc','template_cs2misd', params).then((res)=>{alert(res)})
+
+        }
+        form.classList.add("was-validated")
+     })
+  </script>
+  
+
+
+</body>
+
+</html>
